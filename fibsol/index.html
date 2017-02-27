@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="FIB-SOL">
+<meta name="keywords" content="FIB-SOL Life technologies">
+<meta name="author" content="FIB-SOL Life technologies">
+
+<title>FIB-SOL Life technologies</title>
+
+<!-- Fav Icons   -->
+<link rel="icon" href="images/favicon.png">
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/animate.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="css/responsive.css">
+ <script src="js/jquery.min.js"></script>
+
+<style>
+.mgicon{color: #e8900c; margin-right: 12px;}
+.nav-tabs > li {float: left !important;}
+.nav-tabs { border-bottom: 2px solid #DDD; }
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; }
+.nav-tabs > li > a { border: none; color: #666; }
+.nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none; color: #4285F4 !important; background: transparent; }
+.nav-tabs > li > a::after { content: ""; background: #e8900c; height: 2px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
+.nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
+.tab-nav > li > a::after { background: #21527d none repeat scroll 0% 0%; color: #fff; }
+.tab-pane { padding: 15px 0; }
+.tab-content{padding:20px}
+
+.tab-content {border: 1px solid #e5e3dc;border-top: none;padding: 0px 15px;}
+
+#objectives{display:none;}
+.card {background: rgb(255, 255, 255) none repeat scroll 0% 0%; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3); margin-bottom: 30px;width: 95%;margin-left: auto;margin-right: auto; }
+</style>
+<script>
+function showhide()
+     {
+    var div = document.getElementById("objectives");
+    if (div.style.display == "block"){
+        div.style.display = "none";
+    }
+    else {
+        div.style.display = "block";
+    }
+     }
+</script>
+</head>
+
+<body>
+  <!-- preloader -->
+  <div class="preloader">
+    <div class="loader">&nbsp;</div>
+  </div>
+  
+  <div class="web-web-sidebar-menu-container" id="web-web-sidebar-menu-container">
+    <div class="web-sidebar-menu-push">
+      <div class="web-sidebar-menu-overlay"></div>
+      <div class="web-sidebar-menu-inner">
+        <!--Header Section Start Here -->
+        <header class="header-section" id="home" >
+          <div class="top-header">
+            <div class="container">
+              <div class="row ">
+               <ul class="contact-detail2 col-sm-5 pull-left">
+                 <li> <a href="#" target="_blank"><i class="fa fa-envelope-o"></i>info@fibsol.com</a> </li>
+               </ul>
+               <div class="social-links col-xs-12 col-sm-7 pull-right">
+                 <ul class="social-icons hidden-xs pull-right">
+                   <li> <a href="https://www.facebook.com/fibsol/" target="_blank"><i class="fa fa-facebook"></i></a> </li>
+                   <li> <a href="#" target="_blank"><i class="fa fa-twitter"></i></a> </li>
+                   <li> <a href="#" target="_blank"><i class="fa fa-skype"></i></a> </li>
+                 </ul>
+               </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="navbar navbar-static-top">
+            <div class="container">
+              <div class="navbar-header">
+                <a class="navbar-brand animated bounce col-md-12 col-xs-9" href="index.html">
+                  <img src="images/logo.png" alt="LOGO" class="img-responsive">
+                </a> 
+                <div class="header-right-toggle pull-right hidden-md hidden-lg">
+                  <a href="javascript:void(0)" class="side-menu-button"><i class="fa fa-bars"></i></a>
+                </div>
+              </div>
+              <nav class="main-navigation text-left pull-right hidden-xs hidden-sm">
+                <ul class="nav navbar-nav">
+				 <li class="active"> <a href="index.html">Home</a></li>
+                  <li> <a href="about.html">About Us</a></li>
+				   <li> <a href="products.html">Products</a></li>
+				 <li> <a href="updates.html" class="has-submenu">Updates</a>
+                  	<ul class="sub-menu">
+                      <li><a href="updates.html#achievements">Achievements</a></li>
+                      <li><a href="updates.html#Grants">Grants</a></li>
+                      <li><a href="updates.html#field-trial">Field Trials</a></li>
+                    </ul>
+                  </li>
+                  <li> <a href="contact.html">Contact us</a></li>
+                  <li> <a href="" class=""></a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </header>
+        <!-- Header Section End Here -->  
+
+        <!-- banner section Start Here -->
+        <section id="banner" class="banner-section">
+          <div class="over-bg section-padding">
+            <div class="slide-bg">
+              <div class="container">
+                <div class="col-md-12 col-sm-12 dest-detail text-center wow fadeInUp">
+                  <div class="titles">
+                    <h1 class="light">We Provide</h1>
+                      <div id="banner-text" class="owl-carousel owl-theme">
+                        <div class="item">
+                          <div class="bold">Innovative Nanofibre substrates</div>
+                        </div>
+                        <div class="item">
+                          <div class="bold">Superior Agro-Inputs</div>
+                        </div>
+                        <div class="item">
+                          <div class="bold">Sensor & Catalysts</div>
+                        </div>
+						<div class="item">
+                          <div class="bold">Clean Energy & Filters</div>
+                        </div>
+                      </div>
+                  </div>
+                 
+                </div>
+              </div>
+              <div class="bg-images hidden-xs hidden-sm"></div>
+            </div>
+          </div>
+        </section>
+        <!-- banner section End Here -->
+
+        <!-- process section Start Here -->
+        <section class="process">
+          <div class="container">
+            <div class="row">
+              <div class="content">
+                <div class="col-md-9 col-sm-8 wow fadeInUp">
+                  <h2>Get a quick quote from us <strong> Contact Now!</strong></h2>
+                </div>
+                <div class="col-md-3 col-sm-4 text-right wow fadeInUp"> 
+                  <a href="index.html" target="_blank" class="btn btn-theme">Get a quote</a> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- process section End Here -->
+
+        <!-- Main Section Start Here -->
+       
+	   <div id="main">
+		<section class="skills-section section-padding">
+          <div class="container">
+            <header class="page-header section-header">
+              <h2> WELCOME TO FIB-SOL</h2>
+              <samp class="line text-center"></samp>
+            </header>
+              <div class="row ">
+              <div class="col-md-8 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                <p><b>FIB-SOL</b>	 Life technologies Pvt. Ltd is a company founded in December 2013, by a team of post doctoral and doctoral scholars of IIT Madras. FIB-SOL currently functions from the Bio-Incubator, IIT Madras Incubation Cell. The company hosts the privilege of being one of the four identified companies to avail the facilities of the newly launched IITM Bioincubator. </p>
+                <p>To develop an innovative and integrative research approach to offer technical solutions to burning problems in agriculture and healthcare sector.</p>
+				
+                    <div class="row">
+                         <div class="card">
+                             <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active"><a href="#Vision" aria-controls="Vision" role="tab" data-toggle="tab">Vision</a></li>
+                                <li role="presentation"><a href="#Mission" aria-controls="Mission" role="tab" data-toggle="tab">Mission</a></li>
+                             </ul>
+    
+                             <div class="tab-content">
+                                 <div role="tabpanel" class="tab-pane active" id="Vision"><p> To innovate functionally efficient nanofiber substrates for Agriculture, Healthcare &amp; Advanced materials</p></div>
+                                 <div role="tabpanel" class="tab-pane" id="Mission"><p> To be the leading provider of environment friendly, smart technologies to address  global industry needs</p></div>
+                             </div>
+    					</div>
+    
+                     </div>
+                     
+                  
+                
+                <div class="privacy-title" id="objectives">
+                   <h6>Objectives of FIB-SOL</h6>
+				   <ul>
+                        <li><i class="fa fa-plus-square mgicon"></i>Carry out research and development to commercially provide biological inputs for agriculture and health sector.</li>
+                        <li><i class="fa fa-plus-square mgicon"></i>Apply front end research expertise from areas like nano-biotechnology and computational biology to overcome challenges faced by industries operating in agriculture, health and environment sector.</li>
+                        <li><i class="fa fa-plus-square mgicon"></i>Take up outsourced R&D projects to design protocols; Innovate and manufacture new materials and formulations required by the biotechnology sector.</li>
+                      </ul>
+                           
+			   </div>
+                <button id="button" onclick="showhide()" class="btn-theme-xs pull-right">Readmore</button>
+				
+              </div>
+			  <div class="col-md-4">
+			  <img src="images/bio.png" class="img-responsive" >
+			  </div> 
+            </div>
+          </div>
+        </section>
+                 
+        </div>
+        
+        <!--<section class="clients-section section-padding">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12  wow fadeInUp">
+                <header class="page-header section-header text-center">
+                  <h1 class="h-light">With</h1>
+                  <h1 class="h-bold">Satisfied <span>Clients</span></h1>
+                  <span class="line text-center"></span>
+                  <p>Unique features give you a head-start over your competitors: countless customization options,<br> working forms and newsletters, flexible code, great design, and more</p>
+                </header>
+              </div>
+              <div class="col-md-12 wow fadeInUp">
+                <ul id="logo" class="owl-carousel owl-theme">
+                    <li class="item">
+                      <img src="images/clients/logo-1.png" alt="" class="img-responsive">
+                    </li>
+                    <li class="item">
+                      <img src="images/clients/logo-3.png" alt="" class="img-responsive">
+                    </li>
+                    <li class="item">
+                      <img src="images/clients/logo-4.png" alt="" class="img-responsive">
+                    </li>
+                    <li class="item">
+                      <img src="images/clients/logo-5.png" alt="" class="img-responsive">
+                    </li>
+                    <li class="item">
+                      <img src="images/clients/logo-6.png" alt="" class="img-responsive">
+                    </li>
+                    <li class="item">
+                      <img src="images/clients/logo-4.png" alt="" class="img-responsive">
+                    </li>
+                    <li class="item">
+                      <img src="images/clients/logo-3.png" alt="" class="img-responsive">
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>-->
+        
+       
+        <!-- Footer Section Start Here -->
+        <footer id="footer">
+         <section class="footer-section-bottom">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-7 col-sm-6">
+                  <p class="copyright ">Copyright &copy; FIB-SOL 2016. All rights reserved. </p>
+                </div>
+               
+              </div>
+            </div>
+          </section>
+        </footer>
+        <!-- End footer -->
+        <a class="scroll-top fa fa-angle-up" href="javascript:void(0)"></a>
+      </div>
+    </div>
+	
+   <nav class="web-sidebar-menu web-slide-from-left">
+      <div class="nano">
+        <div class="content">
+          <nav class="responsive-menu">
+            <ul class="nav navbar-nav">
+				 <li class="active"> <a href="index.html">Home</a></li>
+                  <li> <a href="about.html">About Us</a></li>
+				   <li> <a href="products.html">Products</a></li>
+              
+				  <li> <a href="updates.html">Updates</a>
+                  	<ul>
+                      <li><a href="updates.html#achievements">Achievements</a></li>
+                      <li><a href="updates.html#Grants">Grants</a></li>
+                      <li><a href="updates.html#field-trial">Field Trials</a></li>
+					  <li> <a href="" class=""></a></li>
+                    </ul>
+                  </li>
+                  <li> <a href="contact.html">Contact us</a></li>
+                  <li> <a href="" class=""></a></li>
+                </ul>
+          </nav>
+        </div>
+      </div>
+    </nav> 
+  </div>
+ 
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/smooth-scroll.js"></script>
+  <script src="js/jquery.ajaxchimp.min.js"></script>
+  <script src="js/nanoscroll.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/script.js"></script>
+  
+   
+</body>
+
+</html>
